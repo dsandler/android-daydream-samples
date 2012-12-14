@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.daydream.bouncer"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="17"/>
+
+    <application android:label="Bouncing Logo">
+	    <service
+            android:name=".BouncerDaydream"
+            android:exported="true"
+            android:label="Bouncing Logo">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
