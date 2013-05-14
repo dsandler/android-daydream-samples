@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size">12sp</dimen>
+    <dimen name="padding">6sp</dimen>
+    <dimen name="speed">20dp</dimen>
+</resources>

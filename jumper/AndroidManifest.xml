@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.daydream.jumper"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="17"/>
+
+    <application android:label="Jumper">
+	    <service
+            android:name=".Daydream"
+            android:exported="true"
+            android:label="Jumper 1"
+            >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+        </service>
+        <service
+                android:name=".Daydream2"
+                android:label="Jumper 2"
+                android:exported="true"
+                >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+        </service>
+        <service
+                android:name=".Daydream3"
+                android:label="Jumper 3"
+                android:exported="true"
+                >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
