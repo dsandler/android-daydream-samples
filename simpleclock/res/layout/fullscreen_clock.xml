@@ -10,10 +10,6 @@
         android:layout_gravity="center"
         android:fontFamily="monospace"
         android:format12Hour="hh mm"
-        android:shadowColor="#800000"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="8"
         android:textColor="#CC3300"
         android:textSize="@dimen/clock_text_size" />
 
@@ -29,10 +25,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="monospace"
-            android:shadowColor="#800000"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="8"
             android:text="  :  "
             android:textColor="#CC3300"
             android:textSize="@dimen/clock_text_size"

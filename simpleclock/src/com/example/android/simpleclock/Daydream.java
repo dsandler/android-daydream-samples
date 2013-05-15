@@ -20,8 +20,8 @@ import android.service.dreams.DreamService;
 
 public class Daydream extends DreamService {
     @Override
-    public void onAttachedToWindow() {
-        super.onAttachedToWindow();
+    public void onDreamingStarted() {
+        super.onDreamingStarted();
         setFullscreen(true);
         setScreenBright(false);
         setContentView(R.layout.fullscreen_clock);
