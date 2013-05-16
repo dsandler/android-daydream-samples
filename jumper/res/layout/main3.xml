@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The Android Open Source Project
+<!-- Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,6 @@
 
     <!-- Icon -->
     <com.android.daydream.jumper.Jumper3
-        android:id="@+id/jumper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
@@ -32,9 +31,59 @@
             />
     </com.android.daydream.jumper.Jumper3>
 
-    <!-- Text -->
     <com.android.daydream.jumper.Jumper3
-        android:id="@+id/holoyolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+        <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/matiasduarte"
+                />
+    </com.android.daydream.jumper.Jumper3>
+
+    <com.android.daydream.jumper.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+        <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/matiasduarte"
+                />
+    </com.android.daydream.jumper.Jumper3>
+
+    <com.android.daydream.jumper.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+        <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/matiasduarte"
+                />
+    </com.android.daydream.jumper.Jumper3>
+
+    <!-- Text -->
+
+    <com.android.daydream.jumper.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF33B5E5"
+                android:textSize="64dp"
+                android:text="#YOLO"
+                />
+    </com.android.daydream.jumper.Jumper3>
+
+    <com.android.daydream.jumper.Jumper3
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
